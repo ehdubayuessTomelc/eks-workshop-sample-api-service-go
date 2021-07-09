@@ -35,7 +35,7 @@ func main() {
 
 		io.WriteString(w, string(out))
 
-		fmt.Println("Moody's! - the log message")
+		fmt.Println("Greetings world - the log message")
 	})
 	http.ListenAndServe(":8080", nil)
 }
